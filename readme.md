@@ -2,6 +2,8 @@
 
 A deep learning framework for fire detection using knowledge distillation from a CLIP-based teacher model to lightweight student models. The system performs both image-level and patch-level fire detection with high accuracy.
 
+**Accepted in ISPRS Journal of Photogrammetry and Remote Sensing (IF 12.2)**
+
 ## Overview
 
 This project implements a teacher-student knowledge distillation approach for fire detection:

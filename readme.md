@@ -175,14 +175,11 @@ If you use this code in your research, please cite:
   title={Cross-Modal Distillation for Real-time Wildfire Detection and
 	Localization in Edge-Deployed Aerial Vehicles},
   author={Medhavi Mishra et.al},
-  year={2025},
+  year={2026},
   url={https://github.com/medh132/cmkd}
 }
 ```
 
-## License
-
-MIT License
 
 ## Acknowledgments
 

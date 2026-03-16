@@ -51,6 +51,9 @@ pip install thop  # For FLOPs calculation
 ```
 
 ## Dataset Format
+Datasets can be downloaded using below links: 
+dataset_flame2 : https://drive.google.com/drive/folders/1LpTmIHMKoyFy28hUPJXRfgzIE4VQp89Q?usp=drive_link
+dataset_flame3 : https://drive.google.com/drive/folders/1aNdbY3o63QPevdm26rfWnUX3G7fKz074?usp=drive_link
 
 The dataset should be organized with:
 - RGB and IR image pairs

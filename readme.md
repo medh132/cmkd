@@ -100,7 +100,8 @@ lr = 0.001
 - Cycling through shorter dataset to match longer one
 - Multi-loss optimization with weighted components
 - Learning rate scheduling (StepLR)
-- **trained student model weight (Densenet)**: [Download here](https://drive.google.com/file/d/1DdzbMb_Uf70ZjxKFbYvFMzNQIIuyPkzo/view?usp=drive_link)
+
+   **trained student model weight (Densenet)**: [Download here](https://drive.google.com/file/d/1DdzbMb_Uf70ZjxKFbYvFMzNQIIuyPkzo/view?usp=drive_link)
   
 ## Testing
 

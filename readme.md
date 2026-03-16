@@ -6,9 +6,7 @@ A deep learning framework for fire detection using knowledge distillation from a
 
 This project implements a teacher-student knowledge distillation approach for fire detection:
 - **Teacher Model**: CLIP-based vision transformer fine-tuned on infrared (IR) images
-- 	- **trained teacher model weight**: [Download here](https://drive.google.com/file/d/1CafAnP09mVKkbjySECklSJpOD2UZNDzX/view?usp=drive_link)
 - **Student Models**: Lightweight CNN architectures (DenseNet, ResNet, MobileNetV2, etc.) trained on RGB images
-- 	- **trained student model weight (Densenet)**: [Download here](https://drive.google.com/file/d/1DdzbMb_Uf70ZjxKFbYvFMzNQIIuyPkzo/view?usp=drive_link)
 - **Multi-level Detection**: Both image-level (fire-impacted vs fire-free) and patch-level (7×7 grid) classification
 
 ## Key Features
@@ -82,7 +80,8 @@ The teacher model is already pre-trained. If you need to retrain:
 # Use CLIP teacher with IR images
 # See model_teacher.py for architecture
 ```
-
+- **trained teacher model weight**: [Download here](https://drive.google.com/file/d/1CafAnP09mVKkbjySECklSJpOD2UZNDzX/view?usp=drive_link)
+  
 ### 2. Train Student Model
 ```bash
 python main_st.py
@@ -101,7 +100,8 @@ lr = 0.001
 - Cycling through shorter dataset to match longer one
 - Multi-loss optimization with weighted components
 - Learning rate scheduling (StepLR)
-
+- **trained student model weight (Densenet)**: [Download here](https://drive.google.com/file/d/1DdzbMb_Uf70ZjxKFbYvFMzNQIIuyPkzo/view?usp=drive_link)
+  
 ## Testing
 
 ### Test on Standard Dataset

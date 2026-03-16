@@ -6,7 +6,9 @@ A deep learning framework for fire detection using knowledge distillation from a
 
 This project implements a teacher-student knowledge distillation approach for fire detection:
 - **Teacher Model**: CLIP-based vision transformer fine-tuned on infrared (IR) images
+- 	- **trained teacher model weight**: [Download here](https://drive.google.com/file/d/1CafAnP09mVKkbjySECklSJpOD2UZNDzX/view?usp=drive_link)
 - **Student Models**: Lightweight CNN architectures (DenseNet, ResNet, MobileNetV2, etc.) trained on RGB images
+- 	- **trained student model weight (Densenet)**: [Download here](https://drive.google.com/file/d/1DdzbMb_Uf70ZjxKFbYvFMzNQIIuyPkzo/view?usp=drive_link)
 - **Multi-level Detection**: Both image-level (fire-impacted vs fire-free) and patch-level (7×7 grid) classification
 
 ## Key Features
